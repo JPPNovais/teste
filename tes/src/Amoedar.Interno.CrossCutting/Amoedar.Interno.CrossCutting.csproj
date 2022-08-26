@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Amoedar.Interno.Application\Amoedar.Interno.Application.csproj" />
+    <ProjectReference Include="..\Amoedar.Interno.Domain\Amoedar.Interno.Domain.csproj" />
+    <ProjectReference Include="..\Amoedar.Interno.Infrastructure\Amoedar.Interno.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
